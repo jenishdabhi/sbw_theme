@@ -1,0 +1,97 @@
+<div class="header_wrapper fixed top-0 before:-mt-[15px] before:absolute before:backdrop-blur before:content-[``] before:h-[20px] before:inset-x-0 before:mx-5 before:top-0 duration-100 group-[.side-menu--collapsed]:xl:ml-[90px] h-[65px] inset-x-0  transition-[margin] xl:ml-[220px]">
+    <div class="left-0 w-100 before:absolute before:bg-slate-50 before:border before:border-slate-200 before:content-[``] before:dark:bg-darkmode-600/70 before:dark:border-darkmode-500/60 before:h-full before:inset-x-4 before:mt-3 before:mx-auto before:rounded-lg before:shadow-sm before:top-0 before:z-[-1] box duration-200 ease-in-out group h-full md:mx-0 mx-0 right-0 transition-colors">
+      <div class="flex items-center duration-300 ease-in-out h-full transition-[padding] w-full">
+        <div class="flex items-center gap-1 xl:hidden">
+          <a class="p-2 hover:bg-slate-100 rounded-full open-mobile-menu" href="">
+            <i class="stroke-[1] h-[18px] w-[18px]" data-lucide=align-justify data-tw-merge=""></i>
+          </a>
+          <a class="p-2 hover:bg-slate-100 rounded-full short-search-icon" href=javascript:; data-tw-target=#quick-search data-tw-toggle=modal>
+            <i class="stroke-[1] h-[18px] w-[18px]" data-lucide=search data-tw-merge=""></i>
+          </a>
+        </div>
+        <nav  class="flex">
+          <div class="title-area">
+            <div>
+              <div class="flex">
+                  <h3 class="ellipsis title-text"></h3> 
+              </div>
+              <div class="ellipsis sub-heading hide text-muted"></div>
+            </div>
+          </div>
+        </nav>
+        <nav aria-label=breadcrumb class="flex hide">
+          <ol class="page_title_list flex items-center dark:text-slate-300 lg:flex sm:hidden text-theme-1" id=navbar-breadcrumbs></ol>
+        </nav>
+        <div class="relative flex-1 justify-end lg:flex searchbar sm:hidden" data-tw-target=#quick-search data-tw-toggle=modal>
+          <div class="cursor-pointer">
+            <div class="icon mb-2">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 20.9993L15.8032 15.8025M15.8032 15.8025C17.2097 14.396 17.9999 12.4883 17.9999 10.4992C17.9999 8.51011 17.2097 6.60247 15.8032 5.19595C14.3967 3.78944 12.4891 2.99927 10.5 2.99927C8.51084 2.99927 6.6032 3.78944 5.19669 5.19595C3.79017 6.60247 3 8.51011 3 10.4992C3 12.4883 3.79017 14.396 5.19669 15.8025C6.6032 17.209 8.51084 17.9992 10.5 17.9992C12.4891 17.9992 14.3967 17.209 15.8032 15.8025Z" stroke="#686A6B" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>   
+            </div>            
+          </div>
+        </div> 
+        <div class="left-0 group [&.show]:opacity-100 [&.show]:visible [&:not(.show)]:delay-[0.2s,0s] [&:not(.show)]:duration-[0s,0.2s] [&:not(.show)]:invisible [&:not(.show)]:opacity-0 bg-gradient-to-b fixed from-theme-1/50 h-screen modal to-black/50 top-0 transition-[visibility,opacity] via-theme-2/50 w-screen [&.show]:duration-[0s,0.1s] overflow-y-hidden z-[60]" id=quick-search aria-hidden=true tabindex=-1>
+          <div class="relative group-[.show]:scale-100 lg:w-[700px] mx-auto my-2 scale-95 sm:mt-40 sm:w-[600px] transition-transform w-[95%]">
+            <div class=relative>
+              <div class="flex items-center absolute inset-y-0 justify-center left-0 w-12">
+                <i class="stroke-[1] -mr-1.5 h-5 text-slate-500 w-5" data-lucide=search data-tw-merge=""></i>
+              </div>
+              <input class="duration-200 dark:focus:ring-opacity-50 dark:focus:ring-slate-700 disabled:cursor-not-allowed focus:ring-opacity-20 focus:ring-primary transition [&[readonly]]:bg-slate-100 [&[readonly]]:cursor-not-allowed [&[readonly]]:dark:bg-darkmode-800/50 [&[readonly]]:dark:border-transparent [&[type=`file`]]:border border-0 border-slate-200 dark:bg-darkmode-800 dark:border-transparent dark:disabled:bg-darkmode-800/50 dark:disabled:border-transparent dark:placeholder:text-slate-500/80 disabled:bg-slate-100 ease-in-out file:bg-slate-100 file:border-0 file:border-r-[1px] file:border-slate-100/10 file:font-semibold file:mr-4 file:px-4 file:py-2 file:rounded-l-md file:text-slate-500/70 file:text-sm focus:border-opacity-40 focus:border-primary focus:ring-0 group-[.form-inline]:flex-1 group-[.input-group]:[&:not(:first-child)]:border-l-transparent group-[.input-group]:first:rounded-l group-[.input-group]:last:rounded-r group-[.input-group]:rounded-none group-[.input-group]:z-10 hover:file:bg-200 pl-12 placeholder:text-slate-400/90 pr-14 py-3.5 rounded-lg shadow-lg text-base w-full" data-tw-merge="" id=navbar-search placeholder="Quick search...">
+              <div class="flex items-center absolute inset-y-0 right-0 w-14">
+                <div class="mr-auto bg-slate-100 border px-2 py-1 rounded-[0.4rem] text-slate-500/80 text-xs">ESC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <div class="flex items-center ml-auto"> 
+              <!-- <a class="icon request-full-screen" href=javascript:;>
+                <i class="stroke-[1]" data-lucide=expand data-tw-merge=""></i>
+              </a>  -->
+              <a class="icon" href=javascript:; data-tw-target=#notifications-panel data-tw-toggle=modal id=notification_bell>
+                <svg width="24" class="notification_icon" height="24" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.75 3.63424L7.90998 4.36698C8.25443 4.29178 8.5 3.98681 8.5 3.63424H7.75ZM1.88229 17.1888L1.29663 16.7203H1.29663L1.88229 17.1888ZM1.5 17.6667L0.914348 17.1981C0.734246 17.4233 0.699133 17.7317 0.824023 17.9916C0.948913 18.2514 1.2117 18.4167 1.5 18.4167L1.5 17.6667ZM16.5 17.6667V18.4167C16.7883 18.4167 17.0511 18.2514 17.176 17.9916C17.3009 17.7317 17.2658 17.4233 17.0857 17.1981L16.5 17.6667ZM16.1177 17.1888L15.5321 17.6573L16.1177 17.1888ZM10.25 3.63424H9.5C9.5 3.98681 9.74557 4.29178 10.09 4.36698L10.25 3.63424ZM8.5 2.25C8.5 1.97386 8.72386 1.75 9 1.75V0.25C7.89543 0.25 7 1.14543 7 2.25H8.5ZM8.5 3.63424V2.25H7V3.63424H8.5ZM3.91667 9.33333C3.91667 6.9007 5.62616 4.86559 7.90998 4.36698L7.59002 2.9015C4.63187 3.54734 2.41667 6.18076 2.41667 9.33333H3.91667ZM3.91667 13.5273V9.33333H2.41667V13.5273H3.91667ZM2.46794 17.6573C3.40574 16.4851 3.91667 15.0285 3.91667 13.5273H2.41667C2.41667 14.6879 2.02167 15.814 1.29663 16.7203L2.46794 17.6573ZM2.08565 18.1352L2.46794 17.6573L1.29663 16.7203L0.914348 17.1981L2.08565 18.1352ZM16.5 16.9167H1.5V18.4167H16.5V16.9167ZM15.5321 17.6573L15.9143 18.1352L17.0857 17.1981L16.7034 16.7203L15.5321 17.6573ZM14.0833 13.5273C14.0833 15.0285 14.5943 16.4851 15.5321 17.6573L16.7034 16.7203C15.9783 15.814 15.5833 14.6879 15.5833 13.5273H14.0833ZM14.0833 9.33333V13.5273H15.5833V9.33333H14.0833ZM10.09 4.36698C12.3738 4.86559 14.0833 6.9007 14.0833 9.33333H15.5833C15.5833 6.18076 13.3681 3.54734 10.41 2.9015L10.09 4.36698ZM9.5 2.25V3.63424H11V2.25H9.5ZM9 1.75C9.27614 1.75 9.5 1.97386 9.5 2.25H11C11 1.14543 10.1046 0.25 9 0.25V1.75Z" stroke="#686A6B" fill="#686A6B"/>
+                <path d="M6.5 17.6665H11.5V18.4998C11.5 19.8805 10.3807 20.9998 9 20.9998V20.9998C7.61929 20.9998 6.5 19.8805 6.5 18.4998V17.6665Z" stroke="#686A6B" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+              <span></span>
+              </a> 
+              <a href="#" class="icon">
+                <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 14H10V10H9M10 6H10.01M19 10C19 11.1819 18.7672 12.3522 18.3149 13.4442C17.8626 14.5361 17.1997 15.5282 16.364 16.364C15.5282 17.1997 14.5361 17.8626 13.4442 18.3149C12.3522 18.7672 11.1819 19 10 19C8.8181 19 7.64778 18.7672 6.55585 18.3149C5.46392 17.8626 4.47177 17.1997 3.63604 16.364C2.80031 15.5282 2.13738 14.5361 1.68508 13.4442C1.23279 12.3522 1 11.1819 1 10C1 7.61305 1.94821 5.32387 3.63604 3.63604C5.32387 1.94821 7.61305 1 10 1C12.3869 1 14.6761 1.94821 16.364 3.63604C18.0518 5.32387 19 7.61305 19 10Z" stroke="#686A6B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </a> 
+          </div>
+          <div class="relative d-flex profile justify-between align-items-center dropdown" data-tw-merge="" data-tw-placement=bottom-end>
+            <button class="border-0 cursor-pointer image-fit overflow-hidden rounded-full" aria-expanded=false data-tw-toggle=dropdown id=user_avatar></button>
+            <span class="info">
+               <p class="text">{{fullname}} </p>  
+               <svg class="icon  icon-xs sm-icon" aria-hidden="true">
+                <use class="" href="#icon-caretdown"></use>
+              </svg>
+          </span>
+            <div class="user_info dropdown-menu absolute tw-dropdown-menu z-[9999]" data-enter="transition-all ease-linear duration-150" data-enter-from="absolute !mt-5 invisible opacity-0 translate-y-1" data-enter-to="!mt-1 visible opacity-100 translate-y-0" data-leave="transition-all ease-linear duration-150" data-leave-from="!mt-1 visible opacity-100 translate-y-0" data-leave-to="absolute !mt-5 invisible opacity-0 translate-y-1" data-selector=.show data-transition="">
+              <div class="p-2 dark:bg-darkmode-600 rounded-md bg-white border-transparent dark:border-transparent dropdown-content mt-1 shadow-[0px_3px_10px_#00000017] w-56" data-tw-merge="">{% for item in navbar_settings.settings_dropdown %} {% if (not item.hidden) %} {% if (item.route) %} <a class="flex items-center duration-300 cursor-pointer dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item ease-in-out hover:bg-slate-200/60 p-2 rounded-md transition" href="{{ item.route }}">{{ _(item.item_label) }} </a>{% elif (item.action) %} <button class="flex items-center duration-300 cursor-pointer dark:bg-darkmode-600 dark:hover:bg-darkmode-400 dropdown-item ease-in-out hover:bg-slate-200/60 p-2 rounded-md transition" onclick="return {{ item.action }}">{{ _(item.item_label) }}</button> {% else %} <div class="my-2 -mx-2 bg-slate-200/60 dark:bg-darkmode-400 h-px"></div>{% endif %} {% endif %} {% endfor %} </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="left-0 group [&.show]:opacity-100 [&.show]:visible [&:not(.show)]:delay-[0.2s,0s] [&:not(.show)]:duration-[0s,0.2s] [&:not(.show)]:invisible [&:not(.show)]:opacity-0 bg-gradient-to-b fixed from-theme-1/50 h-screen modal to-black/50 top-0 transition-[visibility,opacity] via-theme-2/50 w-screen [&.show]:duration-[0s,0.4s]" id=notifications-panel aria-hidden=true tabindex=-1 data-tw-backdrop="">
+            <div class="flex dark:bg-darkmode-600 -mr-[100%] bg-white duration-[0.6s] flex-col group-[.show]:mr-0 h-screen ml-auto relative rounded-[0.75rem_0_0_0.75rem/1.1rem_0_0_1.1rem] shadow-md sm:w-[460px] transition-[margin-right] w-72" data-tw-merge="">
+              <a class="flex items-center absolute inset-y-0 justify-center left-0 -ml-[60px] bg-white/5 border border-white/90 focus:outline-none h-8 hover:bg-white/10 hover:rotate-180 hover:scale-105 my-auto right-auto rounded-full sm:-ml-[105px] sm:h-14 sm:w-14 text-white/90 transition-all w-8" href=javascript:; data-tw-dismiss=modal>
+                <i class="stroke-[1] h-8 w-8" data-lucide=x data-tw-merge=""></i>
+              </a>
+              <div class="flex items-center border-b border-slate-200/60 dark:border-darkmode-400 px-6 py-5" data-tw-merge="">
+                <h2 class="mr-auto font-medium text-base">Notifications</h2>
+                <a class="items-center cursor-pointer rounded-md transition [&:hover:not(:disabled)]:bg-opacity-90 [&:hover:not(:disabled)]:bg-secondary/20 [&:hover:not(:disabled)]:border-opacity-90 [&:hover:not(:disabled)]:dark:bg-darkmode-100/10 [&:not(button)]:text-center border border-secondary dark:border-darkmode-100/40 dark:focus:ring-opacity-50 dark:focus:ring-slate-700 dark:text-slate-300 disabled:cursor-not-allowed disabled:opacity-70 duration-200 focus-visible:outline-none focus:ring-4 focus:ring-opacity-20 focus:ring-primary font-medium justify-center px-3 py-2 shadow-sm sm:flex text-slate-500" href=javascript:; id=mark_all_as_read data-tw-merge="">
+                  <i class="stroke-[1] h-4 mark-all-as-read-bell mr-2 w-4" data-lucide=bell data-tw-merge=""></i> Mark all as read </a>
+              </div>
+              <div class="overflow-y-auto flex-1 p-0" data-tw-merge="">
+                <div class="flex flex-col gap-0.5 p-3" id=notification_list></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,13 @@
+<svg id="frappe-symbols" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" class="d-block" xmlns="http://www.w3.org/2000/svg">
+	
+	<symbol viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg" id="icon-selected">
+		<path d="M13 1L7 7L1 1" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+	</symbol>
+	
+	<symbol viewBox="0 0 14 8" xmlns="http://www.w3.org/2000/svg" id="icon-selectedfield">
+		<path d="M13 1L7 7L1 1" stroke="#000" stroke-width="1.5" stroke-linejoin="round"/>
+	</symbol>
+	<symbol  id="icon-caretdown" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L4 4L0 0" fill="#686A6B"/>
+	</symbol>
+</svg>
