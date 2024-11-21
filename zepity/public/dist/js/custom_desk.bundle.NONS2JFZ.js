@@ -185,4 +185,4 @@
 		<li class="list-filters list-link"></li>
 </ul>
 `;frappe.require?frappe.require("file_uploader.bundle.js"):frappe.ready(function(){frappe.require("file_uploader.bundle.js")});})();
-//# sourceMappingURL=custom_desk.bundle.CJ3WEDF2.js.map
+//# sourceMappingURL=custom_desk.bundle.NONS2JFZ.js.map
