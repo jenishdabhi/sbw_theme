@@ -81,9 +81,9 @@ a{
   text-decoration: none !important;
 }
 .simplebar-content{
-  margin-top: 12px;
+  /* margin-top: 12px; */
   padding: 0 12px !important;
-  height: calc(100vh - 77px); 
+  height: calc(100vh - 100px); 
 }
 .text{
   font-family: "Inter", sans-serif;
