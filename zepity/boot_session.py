@@ -16,7 +16,7 @@ def boot_session(bootinfo):
         bootinfo['company'] = default_company
         app_logo = frappe.db.get_value('Company', {
             'name': default_company
-        },'custom_logo')
+        },'company_logo')
         bootinfo['app_logo'] = app_logo
         bootinfo['logo'] = app_logo
         # bootinfo['comp_name'] = default_company
