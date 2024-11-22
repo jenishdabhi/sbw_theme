@@ -34,7 +34,7 @@ def get_context(context):
 	# this needs commit
 	csrf_token = frappe.sessions.get_csrf_token()
 	boot["pages"] = get_desktop_pages() 
-	boot["company"] = frappe.defaults.get_user_default("company") or "Xpert HRM" 
+	boot["company"] = frappe.defaults.get_user_default("company") or "Sbw" 
 	boot["company_logo"] = frappe.db.get_value("Company", boot["company"], "company_logo") or "" 
 	
 	frappe.db.commit()
@@ -86,9 +86,9 @@ def get_context(context):
 			"allpages": get_desktop_pages(),
 			"avatar": "***",
 			"navbar_settings": frappe.get_doc("Navbar Settings"),
-			"app_logo": logo  or "/assets/zepity/images/logo.png",
-			"logo": logo or "/assets/zepity/images/logo.png",
-			"company": companyname or "Xpert HRM",
+			"app_logo": logo  or "/assets/zepity/images/sbw.png",
+			"logo": logo or "/assets/zepity/images/sbw.png",
+			"company": companyname or "Sbw",
 			"google_analytics_id": frappe.conf.get("google_analytics_id"),
 			"google_analytics_anonymize_ip": frappe.conf.get("google_analytics_anonymize_ip"),
 			"app_name": (

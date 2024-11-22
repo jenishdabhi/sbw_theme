@@ -11,7 +11,7 @@ app_license = "mit"
 #app_logo_url = "/assets/zepity/images/logo.png"
 
 website_context = {
-    "favicon": "/assets/zepity/images/logo.png",
+    "favicon": "/assets/zepity/images/sbw.png",
     "splash_image": "/assets/zepity/images/logo.png",
 }
 
