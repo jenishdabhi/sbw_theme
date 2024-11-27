@@ -162,12 +162,12 @@ a{
 }
 #navbar-breadcrumbs a {
   margin-right: 20px;
+  font-size: 14px;
 }
 .page_title_list li a::after{
-  content: '\f105';
-  font-weight: 900;
-  font-family: "Font Awesome 6 Free";
+  content: '\>';
   position: absolute;
+  font-family: "Font Awesome 6 Free";
   top: 2px;
   right: 0px;
 }
@@ -10991,7 +10991,7 @@ stroke: #090A0B;
   #navbar-breadcrumbs li:not(:first-child) {
     padding-left: 0.125rem;
     position: relative;
-    margin-left: 42px !important;
+    margin-left: 12px !important;
   }
   #navbar-breadcrumbs li:not(:first-child) a:before {
     content: var(--tw-content);
@@ -11223,11 +11223,11 @@ stroke: #090A0B;
     position: sticky !important;
     bottom: 20px;
     border-radius: 50%;
-    width: 40px;
+    width: 48px;
     height: 40px !important;
     border-style: solid !important;
     background-color: var(--primary) !important;
-    margin-left: 100%;
+    margin-left: auto;
     box-shadow: 0 1px 2px #0000000d !important;
     --icon-stroke: #fff;
   }
@@ -11664,4 +11664,11 @@ margin-top: 15px;
   margin-top: -92px;
   position: absolute;
   width: 100%; 
+}
+.login-image {
+  height: 100vh; /* Full viewport height */
+  background-image: url('https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover; /* Make the image cover the entire container */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Don't repeat the image */
 }
